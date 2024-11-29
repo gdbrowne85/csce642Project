@@ -208,8 +208,8 @@ if __name__ == "__main__":
     width = 80
     height = 60
     game = vzd.DoomGame()
-    #level_path = ("my_way_home.cfg")
-    #game.load_config(level_path)
+    level_path = ("my_way_home.cfg")
+    game.load_config(level_path)
 
     game.clear_available_buttons()
     buttons = [vzd.Button.MOVE_LEFT, vzd.Button.MOVE_RIGHT, vzd.Button.MOVE_FORWARD, vzd.Button.ATTACK,
